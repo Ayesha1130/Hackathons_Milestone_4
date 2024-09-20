@@ -15,7 +15,7 @@ resumeButton.addEventListener('click',()=>{
 
 
     editResumeContent.innerHTML =`
-    <div>
+    
      <form>
      <fieldset>
      <legend>Edit Resume</legend>
@@ -34,10 +34,10 @@ resumeButton.addEventListener('click',()=>{
      </fieldset>
 
      </form>
-     </div>
+     
     `
-    editResume.classList.remove('hidden');
-    resumeButton.classList.remove('hidden');
+    //editResume.classList.remove('hidden');
+    //resumeButton.classList.remove('hidden');
 })
 
 resumeEditButton.addEventListener('click',()=>{

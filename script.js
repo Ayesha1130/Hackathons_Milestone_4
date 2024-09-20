@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const experience = document.getElementById('experience').value;
         const skills = document.getElementById('skills').value;
         editResumeContent.innerHTML = `
-    <div>
+    
      <form>
      <fieldset>
      <legend>Edit Resume</legend>
@@ -31,23 +31,10 @@ document.addEventListener('DOMContentLoaded', () => {
      </fieldset>
 
      </form>
-     </div>
-   <h2>Name</h2>
-    <p>${name}</p>
-    <h2>Email</h2>
-    <p>${email}</p>
-    <h2>Phone</h2>
-    <p>${phone}</p>
-    <h2>Education</h2>
-    <p>${education}</p>
-    <h2>Experience</h2>
-    <p>${experience}</p>
-    <h2>Skills</h2>
-    <p>${skills}</p>
-
+     
     `;
-        editResume.classList.remove('hidden');
-        resumeButton.classList.remove('hidden');
+        //editResume.classList.remove('hidden');
+        //resumeButton.classList.remove('hidden');
     });
     resumeEditButton.addEventListener('click', () => {
         editResumeContent.contentEditable = 'true';
