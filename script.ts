@@ -36,8 +36,8 @@ resumeButton.addEventListener('click',()=>{
      </form>
      
     `
-    //editResume.classList.remove('hidden');
-    //resumeButton.classList.remove('hidden');
+    editResume.classList.remove('hidden');
+    resumeButton.classList.remove('hidden');
 })
 
 resumeEditButton.addEventListener('click',()=>{
