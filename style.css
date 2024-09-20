@@ -1,0 +1,67 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #A1D6B2;
+}
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #CEDF9F;
+    border-radius: 5px;
+    
+}
+legend{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #833749;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+textarea{
+    height: 150px;
+}
+
+.container button{   
+
+    background-color:#833749;
+    color: #CEDF9F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.container button:hover{
+    background-color: #4caf50;
+}
+
+#Editable-resume{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #CEDF9F;
+    border-radius: 5px;
+
+}
+#edit-button{
+    background-color: #833749;
+    color: #CEDF9F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+

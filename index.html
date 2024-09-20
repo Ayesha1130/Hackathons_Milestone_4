@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <form id="Editable">
+        <fieldset>
+            <legend>Editable Form Design By GIAIC Student Ayesha Iqbal</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Name Here" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email Here" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number" required>
+            <label for="education">Education</label>
+            <textarea type="text" id="education" name="education" placeholder="Your Education"></textarea>
+            <label for="experience">Experience</label>
+            <textarea id="experience" name="experience" placeholder="Your Experience"></textarea>
+            <label for="skills">Skills</label>
+            <textarea id="skills" name="skills" placeholder="Your Skills"></textarea>
+        </fieldset>
+    </form>
+    <button type="submit" id="resumeButton">generateButton</button>
+    </div>
+
+    <div id="Editable-resume" class="hidden">
+        <div id="resumeContent" contenteditable="true"></div>
+        <button type="button" id="edit-button">Edit Resume</button>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
